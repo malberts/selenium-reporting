@@ -1,0 +1,39 @@
+# Vehicle
+---
+make: Toyota
+model: Avanza
+year: 1990
+seats: 4
+wheels:
+  - left
+  - right
+
+
+
+
+
+
+
+
+# Policy
+firstName: John
+lastName: Doe
+veicles:
+  - toyota_001
+  - toyota_002
+
+
+
+
+
+# Scenario
+login:
+  - dsgf
+search:
+  - accountNumber:L 123123
+addVehicles:
+  - toyota_001
+  - toyota_002
+  - toyota_003
+
+

@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="All" thread-count="4">
+    <test name="Test Scripts">
+        <packages>
+            <package name="tests.*">
+                <exclude name="tests.cucumber"></exclude>
+            </package>
+        </packages>
+    </test>
+</suite>

@@ -1,0 +1,37 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Xray Tests" thread-count="4">
+    <test name="CC-111">
+        <classes>
+            <class name="tests.CC100.CC101">
+                <methods>
+                    <include name="SearchByFirstName" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="CC-112">
+        <classes>
+            <class name="tests.CC100.CC101">
+                <methods>
+                    <include name="SearchByLastName" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="CC-113">
+        <classes>
+            <class name="tests.CC100.CC102">
+                <methods>
+                    <include name="SearchByCountry" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Cucumber" junit="true">
+        <classes>
+            <class name="tests.cucumber.CucumberTests"></class>
+        </classes>
+    </test>
+</suite>
